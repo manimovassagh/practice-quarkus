@@ -22,6 +22,12 @@ public class StudentResource {
         Student student=Student.builder().withId(3L).withName("Sahar").withCourse("Ui UX").build();
         students.add(student1);
         students.add(student);
+        Student.persist(students);
         return students;
+    }
+
+    @GetMapping(path = "/db")
+    public List<Student> getFromDb(){
+        return Student.listAll();
     }
 }

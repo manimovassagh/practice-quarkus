@@ -1,8 +1,10 @@
 package com.github.manimovassagh.entities;
 
+import io.quarkus.hibernate.orm.panache.PanacheEntity;
+
 import java.util.Objects;
 
-public class Student {
+public class Student extends PanacheEntity {
 
     private Long id;
     private String name;
