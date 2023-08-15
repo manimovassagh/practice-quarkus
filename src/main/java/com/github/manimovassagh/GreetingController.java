@@ -1,5 +1,6 @@
 package com.github.manimovassagh;
 
+import com.github.manimovassagh.entities.Student;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,5 +12,12 @@ public class GreetingController {
     @GetMapping
     public String hello() {
         return "Hello Spring";
+    }
+
+
+
+    @GetMapping(path = "/student")
+    public Student getStudent(){
+        return Student.builder().withId(1L).withName("Sahar").withCourse("Java").build();
     }
 }
