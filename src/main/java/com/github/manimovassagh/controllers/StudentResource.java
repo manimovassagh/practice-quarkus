@@ -25,7 +25,7 @@ public class StudentResource {
         Student.persist(students);
         return students;
     }
-//check it
+//check it a
     @GetMapping(path = "/db")
     public List<Student> getFromDb(){
         return Student.listAll();
