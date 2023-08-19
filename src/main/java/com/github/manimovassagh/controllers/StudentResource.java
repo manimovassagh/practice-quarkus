@@ -14,7 +14,7 @@ import java.util.List;
 public class StudentResource {
 
 
-//mannn
+//mann
     @GetMapping
     public List<Student> getStudents(){
         List<Student> students=new ArrayList<>();
