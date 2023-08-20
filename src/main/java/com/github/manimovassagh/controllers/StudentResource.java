@@ -25,7 +25,7 @@ public class StudentResource {
         Student.persist(students);
         return students;
     }
-//check map struct check tt
+//check map struct check t
     @GetMapping(path = "/db")
     public List<Student> getFromDb(){
         return Student.listAll();
