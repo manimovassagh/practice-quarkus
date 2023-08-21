@@ -11,11 +11,11 @@ public class GreetingController {
 
     @GetMapping
     public String hello() {
-        return "Hello Spring";
+        return "Hello Quarkus some new Items inside";
     }
 
 
-
+//test
     @GetMapping(path = "/student")
     public Student getStudent(){
         return Student.builder().withId(1L).withName("Sahar").withCourse("Java").build();
