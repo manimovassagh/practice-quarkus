@@ -15,7 +15,7 @@ public class GreetingController {
     }
 
 
-//test some filrs
+//test some files
     @GetMapping(path = "/student")
     public Student getStudent(){
         return Student.builder().withId(1L).withName("Sahar").withCourse("Java").build();
