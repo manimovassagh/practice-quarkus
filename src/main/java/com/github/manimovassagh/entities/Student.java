@@ -12,7 +12,7 @@ public class Student extends PanacheEntity {
 
     private Student() {
     }
-//test
+//test new
     private Student(Long id, String name, String course) {
         this.id = id;
         this.name = name;
