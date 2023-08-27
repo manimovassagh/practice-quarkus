@@ -26,7 +26,7 @@ public class StudentResource {
         return students;
     }
 
-    //more
+    //more con
     @GetMapping(path = "/check")
     public List<Student> getStudentCheck(){
         List<Student> students=new ArrayList<>();
