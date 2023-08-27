@@ -25,7 +25,7 @@ public class StudentResource {
         Student.persist(students);
         return students;
     }
-    @GetMapping(path = "/chec")
+    @GetMapping(path = "/check")
     public List<Student> getStudentCheck(){
         List<Student> students=new ArrayList<>();
         Student student1=Student.builder().withId(2L).withName("Mani").withCourse("React").build();
