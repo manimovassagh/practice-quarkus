@@ -25,6 +25,18 @@ public class StudentResource {
         Student.persist(students);
         return students;
     }
+    @GetMapping(path = "check")
+    public List<Student> getStudentCheck(){
+        List<Student> students=new ArrayList<>();
+        Student student1=Student.builder().withId(2L).withName("Mani").withCourse("React").build();
+        Student student=Student.builder().withId(3L).withName("Sahar").withCourse("Ui UX").build();
+        students.add(student1);
+        students.add(student);
+        Student.persist(students);
+        return students;
+    }
+
+
 //chec
     @GetMapping(path = "/db")
     public List<Student> getFromDb(){
