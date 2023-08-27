@@ -25,6 +25,8 @@ public class StudentResource {
         Student.persist(students);
         return students;
     }
+
+    //mo
     @GetMapping(path = "/check")
     public List<Student> getStudentCheck(){
         List<Student> students=new ArrayList<>();
