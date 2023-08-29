@@ -26,7 +26,7 @@ public class StudentResource {
         return students;
     }
 
-    //more controller
+    //more controller i
     @GetMapping(path = "/check")
     public List<Student> getStudentCheck(){
         List<Student> students=new ArrayList<>();
