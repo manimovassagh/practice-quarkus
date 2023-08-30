@@ -15,16 +15,7 @@ public class StudentResource {
 
 
 //m
-    @GetMapping
-    public List<Student> getStudents(){
-        List<Student> students=new ArrayList<>();
-        Student student1=Student.builder().withId(2L).withName("Mani").withCourse("React").build();
-        Student student=Student.builder().withId(3L).withName("Sahar").withCourse("Ui UX").build();
-        students.add(student1);
-        students.add(student);
-        Student.persist(students);
-        return students;
-    }
+
 
     //more controller in the
     @GetMapping(path = "/check")
