@@ -14,7 +14,7 @@ import java.util.List;
 public class StudentResource {
 
 
-//mmbb
+//mmb
 
 
     //more controller in the
