@@ -30,7 +30,7 @@ public class StudentResource {
     }
 
 
-//chec
+//che
     @GetMapping(path = "/db")
     public List<Student> getFromDb(){
         return Student.listAll();
