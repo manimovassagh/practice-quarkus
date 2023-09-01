@@ -31,7 +31,7 @@ public class StudentResource {
 
 
     @GetMapping(path = "/check")
-    public List<Student> getStudentCheckToFilterANd(){
+    public List<Student> getStudentCheckToFilterAndSort(){
         List<Student> students=new ArrayList<>();
         Student student1=Student.builder().withId(2L).withName("Mani").withCourse("React").build();
         Student student=Student.builder().withId(3L).withName("Sahar").withCourse("Ui UX").build();
