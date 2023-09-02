@@ -29,10 +29,8 @@ public class GreetingController {
 
     public List<StringAccept> acceptString(){
         ArrayList<StringAccept> list = new ArrayList<>();
-
        StringAccept accept=new StringAccept("Mani");
        StringAccept acceptInteger=new StringAccept(12);
-
        list.add(acceptInteger);
        list.add(accept);
         return  list;
