@@ -27,6 +27,9 @@ public class GreetingController {
     }
 
 
+
+
+    @GetMapping
     public List<StringAccept> acceptString(){
         ArrayList<StringAccept> list = new ArrayList<>();
        StringAccept accept=new StringAccept("Mani");
