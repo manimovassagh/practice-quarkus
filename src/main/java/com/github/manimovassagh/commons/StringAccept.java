@@ -1,18 +1,19 @@
 package com.github.manimovassagh.commons;
 
 import org.bouncycastle.util.StringList;
+import org.springframework.stereotype.Component;
 
 import java.util.Iterator;
 import java.util.Objects;
 
-class StringAccept implements ItemAdder{
+
+
+
+public class StringAccept {
 private String string;
 private Integer integer;
 
-    public StringAccept(String string, Integer integer) {
-        this.string = string;
-        this.integer = integer;
-    }
+
 
     public StringAccept(String string) {
         this.string = string;
