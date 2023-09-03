@@ -36,6 +36,9 @@ public class GreetingController {
        StringAccept acceptInteger=new StringAccept(12);
        list.add(acceptInteger);
        list.add(accept);
+       list.add(accept);
+       list.add(accept);
+       list.add(accept);
         return  list;
     }
 
