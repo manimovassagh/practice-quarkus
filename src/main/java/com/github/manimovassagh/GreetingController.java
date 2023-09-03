@@ -38,7 +38,6 @@ public class GreetingController {
        list.add(accept);
        list.add(accept);
        list.add(accept);
-       list.add(accept);
         return  list;
     }
 
