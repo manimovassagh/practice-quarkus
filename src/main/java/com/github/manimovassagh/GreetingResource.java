@@ -17,6 +17,6 @@ public class GreetingResource {
 
     @Produces(MediaType.TEXT_PLAIN)
     public String hello2() {
-        return "Hello from RESTEasy Reactive for sec";
+        return "Hello from RESTEasy Reactive for second";
     }
 }
