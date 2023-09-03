@@ -37,7 +37,6 @@ public class GreetingController {
        list.add(acceptInteger);
        list.add(accept);
        list.add(accept);
-       list.add(accept);
         return  list;
     }
 
