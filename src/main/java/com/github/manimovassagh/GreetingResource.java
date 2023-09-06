@@ -14,7 +14,7 @@ public class GreetingResource {
         return "Hello from RESTEasy Reactive";
     }
 
-//this is a commit
+//this is a commit take it
     @Produces(MediaType.TEXT_PLAIN)
     public String hello2() {
         return "Hello from RESTEasy Reactive for second time";
