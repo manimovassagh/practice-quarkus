@@ -15,7 +15,8 @@ public class GreetingResource {
     }
 
 
-    @GET
+    @GET()
+    @Path()
     @Produces(MediaType.TEXT_PLAIN)
     public String helloNew() {
         return "Hello from RESTEasy Reactive";
