@@ -7,14 +7,21 @@ import jakarta.ws.rs.core.MediaType;
 
 @Path("/hello")
 public class GreetingResource {
-//che
+    //che
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
         return "Hello from RESTEasy Reactive";
     }
 
-//this is a commit take it or not
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String helloNew() {
+        return "Hello from RESTEasy Reactive";
+    }
+
+    //this is a commit take it or not
     @Produces(MediaType.TEXT_PLAIN)
     public String hello2() {
         return "Hello from RESTEasy Reactive for second time";
