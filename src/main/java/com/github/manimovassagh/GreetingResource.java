@@ -14,13 +14,32 @@ public class GreetingResource {
         return "Hello from RESTEasy Reactive";
     }
 
-//tettt
+
     @GET()
     @Path("/new")
     @Produces(MediaType.TEXT_PLAIN)
+
     public String helloSecond() {
         return "Hello from RESTEasy Reactive";
     }
+
+        @GET()
+    @Path("/new")
+    @Produces(MediaType.TEXT_PLAIN)
+
+    public String helloSecond2() {
+        return "Hello from RESTEasy Reactive";
+    }
+
+        @GET()
+    @Path("/new")
+    @Produces(MediaType.TEXT_PLAIN)
+
+    public String helloSecond3() {
+        return "Hello from RESTEasy Reactive";
+    }
+
+
 
     //this is a commit take it or not
     @Produces(MediaType.TEXT_PLAIN)
