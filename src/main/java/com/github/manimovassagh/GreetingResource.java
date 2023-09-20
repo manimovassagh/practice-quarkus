@@ -7,7 +7,7 @@ import jakarta.ws.rs.core.MediaType;
 
 @Path("/hello")
 public class GreetingResource {
-    //ttllmmtt
+    //ttllmmt
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
