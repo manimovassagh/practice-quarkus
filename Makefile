@@ -1,3 +1,3 @@
 sample:
 	echo "sample file is done"
-vim:
+v
