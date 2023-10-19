@@ -42,7 +42,7 @@ public class StudentResource {
     }
 
 
-//ch
+//c
     @GetMapping(path = "/db")
     public List<Student> getFromDb(){
         return Student.listAll();
