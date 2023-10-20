@@ -42,7 +42,7 @@ public class StudentResource {
     }
 
 
-//clic
+//click
     @GetMapping(path = "/db")
     public List<Student> getFromDb(){
         return Student.listAll();
