@@ -27,7 +27,7 @@ public class StudentResource {
         students.add(student);
         Student.persist(students);
         return students;
-    }    //more controller in
+    }    //more controller i
 
 
     @GetMapping(path = "/check")
